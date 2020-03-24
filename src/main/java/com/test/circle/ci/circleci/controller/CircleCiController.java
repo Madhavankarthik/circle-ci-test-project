@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CircleCiController {
 
-    @GetMapping("\hello-world")
+    @GetMapping("helloworld")
     public String testHelloWorld(){
         return "Hello World";
     }
