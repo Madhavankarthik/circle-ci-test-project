@@ -1,0 +1,13 @@
+package com.test.circle.ci.circleci.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CircleCiController {
+
+    @GetMapping("\hello-world")
+    public String testHelloWorld(){
+        return "Hello World";
+    }
+}
